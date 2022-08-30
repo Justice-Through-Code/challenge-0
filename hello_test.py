@@ -15,4 +15,5 @@ class TestHelloWorld(TestCase):
     @mock.patch('sys.stdout', new_callable=io.StringIO)
     def test_hello_world(self, mock_stdout):
         hello_world()
+        
         self.assertEqual('Hello World!\n', mock_stdout.getvalue())

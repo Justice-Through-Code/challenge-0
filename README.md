@@ -56,4 +56,4 @@ def hello_world():
     
 ```
 
-Try it out and see if you can get the tests to pass, then turn it in!
+Try it out and see if you can get the tests to pass, then push your changes and you're all set!

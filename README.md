@@ -4,17 +4,25 @@
 
 Welcome to JTC! This challenge 0 is meant to familiarize you with how to use these GitHub repos to turn in your coding challenges.
 
+---
+
 ### Estimated Time to Complete
 
 10 minutes
 
+---
+
 ### Learning Objectives
 Understand how to complete and turn in JTC coding challenges
+
+---
 
 
 ### Assignment Overview
 
 Clone this repo to your computer, then follow the steps in this [how-to video](https://courseworks2.columbia.edu/courses/163307/pages/github-classroom-turning-in-challenges?module_item_id=1884233) to complete and turn in the assignment.
+
+---
 
 
 ### How to use Challenge Repos
@@ -25,15 +33,21 @@ First thing's first, let's get this repo downloaded onto your computer. The proc
 
 There are multiple files here, but you'll only be working in one (`hello.py`-- see instructions there). Let's briefly take a look at what the others are.
 
+---
+
 <img width="152" alt="gitignore" src="https://user-images.githubusercontent.com/7146649/187483324-ea53270c-be38-4306-9161-8595d6e9c436.png">
 
 Most GitHub repos will (and should) have a `.gitignore` file. This tells your local computer what files to _ignore_ when tracking files in `git`. For instance, Mac computers create a hidden `.DS_Store` file in every folder on your computer. We can use the `.gitignore` file to make sure that those files don't end up in the GitHub repo.
 
 _(EXTRAS: Notice how both `.gitignore` and `.DS_Store` start with a `.`? The dot tells us that these are 'hidden files', files that most users will want to ignore, so the computer hides it from us. Google how to reveal hidden files on your computer and take a look!)_
 
+---
+
 <img width="158" alt="README.md" src="https://user-images.githubusercontent.com/7146649/187484169-b84be13d-ac4f-4851-b7f0-e494a6b9173f.png">
 
 Good GitHub repos will also have a `README.md` file, to describe what's inside the repo. You're reading this repo's `README.md` file right now! The `.md` file extension tells us that README files are written in a language called `markdown`. Take a look at the file to see the underlying characters that the browser turns into HTML when dispalying it. 
+
+---
 
 <img width="143" alt="hello_test.py" src="https://user-images.githubusercontent.com/7146649/187484683-1c63c05c-bf15-4686-b54d-4b4d196a7dca.png">
 
@@ -46,6 +60,8 @@ To run the tests (after you've completed the assignment:
 3. Run the command `python3 -m unittest hello_test` <-- NOTE: `python3` may not be the right command on your computer. Whatever command runs Python 3 for you (`python3`, `py`, `python`), use that one
 
 and check it out! The tests will either pass (OK) or fail, in which case you should see an error that will help explain what went wrong. 
+
+---
 
 And finally:
 

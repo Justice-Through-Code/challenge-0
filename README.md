@@ -94,10 +94,10 @@ Try it out and see if you can get the tests to pass, then push your changes and 
 
 ## Summary
 
-0. Accept the challenge via the link (if you're already here, you've done this part!)
+0. Accept the challenge via the GitHub Classroom link (if you're already here, you've done this part!)
 1. Clone the repo to your computer
-2. Follow the instructions and edit the code in `hello.py`, the only `.py` file that is not a `_test.py` file
-3. Run your computer's version on `python3 -m unittest hello_test` to see if your code works as expected
+2. Follow the instructions in `hello.py` (the only `.py` file that is not a `_test.py` file) so that it prints out `'Hello World!'`
+3. Run your computer's version of `python3 -m unittest hello_test` to see if your code works as expected
 4. `git add`, `git commit`, `git push` your code, and look for the little green check mark on your repo that tells you your tests passed
 
 And you're good to go!
